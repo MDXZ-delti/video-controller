@@ -1,0 +1,23 @@
+{
+    "author": "Matteo Delton",
+    "content_scripts": [
+        {
+            "all_frames": true,
+            "js": [
+                "controller.js"
+            ],
+            "match_about_blank": true,
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ],
+    "description": "Control HTML5 videos with your keyboard: speed them up, slow them down, toggle PiP and more",
+    "icons": {
+        "256": "icons/icon256.png"
+    },
+    "manifest_version": 3,
+    "name": "Video controller",
+    "offline_enabled": true,
+    "version": "1.0"
+}
